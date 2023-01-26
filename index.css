@@ -25,3 +25,84 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1WVHGk9rzRv2IHKenPFPEFowzKWSJL5fORQ&usqp=CAU");
+  background-size: cover;
+  font-size: 100%;
+}
+
+h1 {
+  margin: auto;
+  font-family: copperplate, fantasy;
+  /* font-weight: bold; */
+  text-decoration: underline;
+  text-shadow: 5px 5px 5px #f6c324;
+  box-sizing: border-box;
+  width: 500px;
+  height: 50px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(146, 184, 228), rgb(218, 25, 25));
+  text-align: center;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+#jordans-1 {
+  box-sizing: border-box;
+  border-right: 3px solid blue;
+  display: block;
+  margin: auto;
+}
+
+#row1-section2 {
+  font-size: 100%;
+  font-weight: lighter;
+  font-family: cooperplate, fantasy;
+  color: #fcfcfc;
+  box-sizing: border-box;
+  border: 2px solid #df5a5a;
+  border-radius: 15px;
+  background-color: #7ad3ee;
+  padding-block: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  height: 3cm;
+  width: 410px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+#jordans-2 {
+  box-sizing: border-box;
+  border-right: 3px solid blue;
+  display: block;
+  margin: auto;
+  margin-left: 1000px;
+}
+
+#row2-section2 {
+  font-size: 100%;
+  font-weight: lighter;
+  font-family: cooperplate, fantasy;
+  color: #fcfcfc;
+  box-sizing: border-box;
+  border: 2px solid #5b9892;
+  border-radius: 15px;
+  background-color: #df5a5a;
+  padding-block: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  height: 3cm;
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 1000px;
+  display: block;
+}
