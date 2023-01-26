@@ -35,29 +35,32 @@ body {
 h1 {
   margin: auto;
   font-family: copperplate, fantasy;
-  /* font-weight: bold; */
+  font-size: 1.5em;
+  font-weight: lighter;
   text-decoration: underline;
-  text-shadow: 5px 5px 5px #f6c324;
+  text-shadow: 3px 3px 3px yellow;
   box-sizing: border-box;
   width: 500px;
   height: 50px;
   border: 2px solid transparent;
   border-radius: 10px;
-  background-image: linear-gradient(rgb(146, 184, 228), rgb(218, 25, 25));
+  background-image: linear-gradient(rgb(116, 201, 241), rgb(251, 64, 64));
   text-align: center;
-  color: blue;
+  color: rgb(109, 0, 251);
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-bottom: 20px;
 }
 
 #jordans-1 {
   box-sizing: border-box;
-  border-right: 3px solid blue;
   display: block;
   margin: auto;
+  box-shadow: 3px 1px rgb(109, 0, 251);
 }
 
 #row1-section2 {
-  font-size: 100%;
+  font-size: auto;
   font-weight: lighter;
   font-family: cooperplate, fantasy;
   color: #fcfcfc;
@@ -79,14 +82,14 @@ h1 {
 
 #jordans-2 {
   box-sizing: border-box;
-  border-right: 3px solid blue;
+  box-shadow: -3px -1px rgb(251, 64, 64);
   display: block;
   margin: auto;
   margin-left: 1000px;
 }
 
 #row2-section2 {
-  font-size: 100%;
+  font-size: auto;
   font-weight: lighter;
   font-family: cooperplate, fantasy;
   color: #fcfcfc;
